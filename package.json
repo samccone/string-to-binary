@@ -1,0 +1,27 @@
+{
+  "name": "string-to-binary",
+  "version": "0.1.0",
+  "description": "convert an ascii string to binary",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samccone/string-to-binary"
+  },
+  "keywords": [
+    "binary",
+    "string",
+    "util"
+  ],
+  "author": "Sam Saccone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samccone/string-to-binary/issues"
+  },
+  "homepage": "https://github.com/samccone/string-to-binary",
+  "devDependencies": {
+    "mocha": "^2.2.1"
+  }
+}
