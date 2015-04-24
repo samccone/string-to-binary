@@ -1,6 +1,6 @@
 {
   "name": "string-to-binary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "convert an ascii string to binary",
   "main": "index.js",
   "scripts": {
