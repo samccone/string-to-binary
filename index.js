@@ -6,4 +6,4 @@ module.exports = function(str) {
 
     return pad.slice(binary.length)+binary;
   }).join('');
-}
+};
