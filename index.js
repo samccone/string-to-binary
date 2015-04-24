@@ -1,9 +1,8 @@
-var punycode = require('punycode');
-
 module.exports = function(str) {
   var pad = "00000000";
 
-  return punycode.toASCII(str).split('').map(function(str) {
+  return unescape(encodeURIComponent(str))
+  .split('').map(function(str) {
     var binary = str.charCodeAt(0).toString(2);
 
     return pad.slice(binary.length)+binary;
